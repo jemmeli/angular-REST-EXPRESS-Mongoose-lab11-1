@@ -9,21 +9,21 @@ disponible ici : https://www.npmjs.com/package/express-mongoose-generator
 ##Initalisations avant le scaffold :
 
 
-###Générer le projet express avec express-generator
+##Générer le projet express avec express-generator
 > express MyProject --save
 
 
-###Rentrer dans le dossier du projet
+##Rentrer dans le dossier du projet
 > cd MyProject
 
 
-###Rajouter mongoose
+##Rajouter mongoose
 > npm install mongoose --save
 
 
-###Rajouter nodemon
+##Rajouter nodemon
 > npm install nodemon --save-dev
 
 
-###Installer les dépendances
+##Installer les dépendances
 > npm install
