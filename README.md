@@ -49,11 +49,17 @@ string, number, date,b oolean, array, objectId
 ###avec Mongoose :
 
 var routes = require('./routes/index');
+
 var ourses = require('./routes/ours');
+
 ...
+
 mongoose.connect('mongodb://localhost/oursdb');
+
 ...
+
 app.use('/', routes);
+
 app.use('/ours', ourses);
 
 
