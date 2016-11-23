@@ -44,3 +44,16 @@ disponible ici : https://www.npmjs.com/package/express-mongoose-generator
 
 ##Available types
 string, number, date,b oolean, array, objectId
+
+##On doit ensuite écrire les routes dans dans app.js file ainsi que la la connection vers MongoDB
+###avec Mongoose :
+
+var routes = require('./routes/index');
+var ourses = require('./routes/ours');
+...
+mongoose.connect('mongodb://localhost/oursdb');
+...
+app.use('/', routes);
+app.use('/ours', ourses);
+
+
